@@ -7,5 +7,6 @@ import (
 
 func main() {
 	var f float32 = 1.2
-	fmt.Printf("%v\n", reflect.TypeOf(f))
+	fmt.Printf("%v\n", reflect.Type(reflect.TypeOf(f))) 
+
 }
